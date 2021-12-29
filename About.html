@@ -1,0 +1,106 @@
+<?php include('farmer_server.php')
+?>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chasir Gorbo</title>
+<link href="style-about.css" rel="stylesheet" type="text/css">
+<script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body class="body">
+<div class="header">
+  <div class= "top-menu">
+    <div class="logo"> <img src="images/cg.png" width="60px" height="60px"> </div>
+    <div class="language">
+      <h4> Bangla|English</h4>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Search" size="45" >
+    </div>
+    <div class="icon"> <a href="#" target="_blank"><img src="images/Search-Icon.png" width="30px" height="30px"></a> </div>
+    <div class="navigation-menu">
+      <div class="menu1">
+        <div class="dropdown1">
+          <button onclick="myFunction1()" class="dropbtn1">Sign Out</button>
+          <div id="myDropdown1" class="dropdown-content1"> 
+		  <a href="farmer_login.php">Sign Out</a>
+		  </div>
+        </div>
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction1() {
+  document.getElementById("myDropdown1").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn1')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show1')) {
+        openDropdown.classList.remove('show1');
+      }
+    }
+  }
+}
+</script> 
+      </div>
+      <div class="menu6"> <a href="Home.html" >Home</a> </div>
+      <div class="menu3"> <a href="Our products.html">Our Products</a> </div>
+      <div class="menu4"> <a href="All Ads.html" >All Ads</a> </div>
+      <div class="menu5"> <a href="Post For Ads.htm" target="_blank">Post For Ads</a> </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+<div class="side-bar">
+  <div class="menu">
+    <div class="menu-icon"> <a href="#" target="_blank"><img src="images/menu_icon.png" width="40" height="40" alt=""/> </a></div>
+    <div class="catagory">Catagory</div>
+  </div>
+  <div class="side-menu">
+    <li><a href="#" title="Welcome" target="_blank" >About Us</a></li>
+    <li><a href="Porblem and Solve.html" title="Welcome" target="_blank" >Problem And Solve</a></li>
+    <li><a href="Agriculture Tips.html" title="Welcome" target="_blank" >Agriculture Tips</a></li>
+    <li><a href="Term and Condition.html" title="Welcome" target="_blank">Terms And Condition </a></li>
+    <li><a href="Future Plan.html" title="Welcome" target="_blank" >Future Plan</a></li>
+    <li><a href="Contuct.html" title="Welcome" target="_blank" >Contact</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<div id="blog-id" class="blog">
+  <div id="bcontainer" class="b-container">
+    <div class="blog1">
+     
+    <div class="headline">
+      <div class="ponno-name"><strong>আমাদের কথা</strong><br>
+“চাষীর গর্ব” একটি অনলাইন ভিত্তিক কৃষি পণ্য ক্রয়-বিক্রিয় এর মাধ্যম বা কৃষিপণ্যর অনলাইন বাজার। দেশের যে কোন প্রান্ত থেকে কৃষকরা নিজের নাম ঠিকানা রেজিষ্ট্রেশন করে তার পণ্য বিজ্ঞাপিত করতে পারবে। একই সঙ্গে যে কোন পর্যায়ের ক্রেতারাও যুক্ত হতে পারবে এর সঙ্গে। এর মাধ্যমে কৃষক তাদের উৎপাদিত পণ্য কোন মধ্যস্থতা ছাড়াই চুড়ান্ত ভোক্তার নিকট তুলে ধরতে পারবেন, যার ফলে ভোক্তাগন সরাসরি কৃষকের কাছথেকে সাশ্রয়ী মূল্যে পণ্য কিনতে পারবেন, এতে করে কৃষক যেমন তার উৎপাদিত পণ্যের ন্যায্য মূল্য পাবে তেমনি মধ্যসত্ত্ব ভোগীদের দৌরাত্য কিছুটা হলেও নিরসন হবে।<br><br>
+
+“চাষীর গর্ব” আপামর কৃষকদের কথা চিন্তা করে তাদের বুঝার উপযোগী করে ওয়েব সাইটটি তৈরি ও পরিচালনা করতে চেষ্টা করছে। আমাদের দেশের কৃষকগন ধীরে ধীরে বিজ্ঞান সম্মত ও প্রযুক্তি নির্ভর হতে চলেছে। তাই আমরা মনে করি “চাষীর গর্ব” কৃষকদের আরো তথ্য ও প্রযুক্তি নির্ভর হতে সাহায্য করবে।<br><br>
+
+কৃষক এখানে তাদের উৎপাদিত পণ্য ও তার কাংক্ষিত দাম, পণ্যের বিবরণ, পণ্যের ছবি, তাদের নাম, ঠিকানা ও মোবাইল নম্বর সহ অনলাইনে ক্রেতাদের নিকট তুলে ধরতে পারবেন। ক্রেতা সাধারন অনলাইন থেকে পণ্য দেখে কৃষকদের দেয়া নাম ঠিকানা ও মোবাইল নম্বরে সরাসরি যোগাযোগ করে পণ্যটি কিনতে পারবেন। “কৃষি মার্কেট ডট কম” কত্তৃপক্ষকে এর জন্য কোন মূল্য বা সার্ভিস চার্য দিতে হবেনা। এছাড়াও ক্রেতা সাধারন তাদের কাংক্ষিত পণ্য প্রাপ্তির জন্য আবেদন করতে পারবেন।<br><br>
+
+“চাষীর গর্ব” এর মাধ্যমে উৎপাদক তথা কৃষকদের দেশের মানুষের কাছে তুলে ধরে পরিচিত করা ও সম্মানিত করে তাদের কৃষিকাজে আরো উদ্বুদ্ধ করা ও মধ্যস্থতা ছাড়াই ন্যায্য মূল্যে পণ্য বিক্রয় করে কৃষক সমাজকে লাভবান করাই আমাদের লক্ষ্য।
+		</div>
+      
+     
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class= "footer-menu">
+    <div class="footer-logo"> <img src="images/cg.png" width="60px" height="60px"> </div>
+    <div class="details">
+      <h4>Our Details</h4>
+    </div>
+  </div>
+</div>
+</body>
+</html>

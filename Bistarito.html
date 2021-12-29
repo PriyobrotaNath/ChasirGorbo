@@ -1,0 +1,124 @@
+<?php include('farmer_server.php')
+?>
+<?php include('order_date.php') ?>
+<?php include('Order.html') ?>
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chasir Gorbo</title>
+<link href="style-bistarito.css" rel="stylesheet" type="text/css">
+<script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body class="body">
+<div class="header">
+  <div class= "top-menu">
+    <div class="logo"> <img src="images/cg.png" width="60px" height="60px"> </div>
+    <div class="language">
+      <h4> Bangla|English</h4>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Search" size="45" >
+    </div>
+    <div class="icon"> <a href="#" target="_blank"><img src="images/Search-Icon.png" width="30px" height="30px"></a> </div>
+    <div class="navigation-menu">
+      <div class="menu1">
+        <div class="dropdown1">
+          <button onclick="myFunction1()" class="dropbtn1">
+          <a href="#">Sign Out</a>
+          </button>
+          <div id="myDropdown1" class="dropdown-content1">
+			 <a href="farmer_login.php">Sign Out</a>
+		  </div>
+        </div>
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction1() {
+  document.getElementById("myDropdown1").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn1')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show1')) {
+        openDropdown.classList.remove('show1');
+      }
+    }
+  }
+}
+</script> 
+      </div>
+      <div class="menu6"> <a href="farmer_home.php" >Home</a> </div>
+      <div class="menu3"> <a href="Our products.html">Our Products</a> </div>
+      <div class="menu4"> <a href="All Ads.html" >All Ads</a> </div>
+      <div class="menu5"> <a href="Post For Ads.html" target="_blank">Post For Ads</a> </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+<div class="side-bar">
+  <div class="menu">
+    <div class="menu-icon"> <a href="#" target="_blank"><img src="images/menu_icon.png" width="40" height="40" alt=""/> </a></div>
+    <div class="catagory">Catagory</div>
+  </div>
+ <div class="side-menu">
+      <li><a href="About.html" title="Welcome" target="_blank" >About Us</a></li>
+      <li><a href="Porblem and Solve.html" title="Welcome" target="_blank" >Problem And Solve</a></li>
+      <li><a href="Agriculture Tips.html" title="Welcome" target="_blank" >Agriculture Tips</a></li>
+      <li><a href="Term and Condition.html" title="Welcome" target="_blank">Terms And Condition </a></li>
+      <li><a href="Future Plan.html" title="Welcome" target="_blank" >Future Plan</a></li>
+      <li><a href="Contuct.html" title="Welcome" target="_blank" >Contact</a></li>
+      </ul>
+    </div>
+</div>
+<div id="blog-id" class="blog">
+  <div id="bcontainer" class="b-container">
+    <div class="blog1">
+      <div class="bistarito-img"> </div>
+      <img src="images/395.jpg" width="250" height="250" alt=""/> 
+      </div>
+    <div class="headline">
+	
+      <div class="ponno-name">পন্যের নাম: বিজ আলু</div>
+      <div class="ponno-name" >পন্য ক্রমিক নং: ৩৯৫</div>
+      <div class="ponno-name">
+        ব্রাক বিজ আলু এ কেটাগরি, আস্ত্রিক্স, ডাইমন্দ, কারদিনাল, গেনলা প্রতিকেজি ২৫  টাকা আলোচনা সাপেক্ষে।</p>
+      </div>
+      <div class="ponno-name">দর: আলোচনা সাপেক্ষে</div>
+      <div class="ponno-name">ষ্টক: ১৫০০০০কেজি</div>
+      <div class="ponno-name">পন্য সংযুক্তির তারিখ:  ১৩ ডিসেম্বর ২০১৭</div>
+      <div class="ponno-name"> মেয়াদ শেষের তারিখ: ২৮ ডিসেম্বর ২০১৭</div>
+	  
+      <div class="ponno-name1"><button onclick="myFunction1()" class="dropbtn1">
+          <a href="Order.html">Order</a></button>
+		  
+		  </div>
+		  
+         
+          <div class="ponno-name3">
+          <button onclick="myFunction1()" class="dropbtn1">
+          <a href="#">Sell</a>
+          </button>
+          </div>
+		  
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class= "footer-menu">
+    <div class="footer-logo"> <img src="images/cg.png" width="60px" height="60px"> </div>
+    <div class="details">
+      <h4>Our Details</h4>
+    </div>
+  </div>
+</div>
+</body>
+</html>
